@@ -36,7 +36,7 @@ export default function FullAVGenerator() {
     <div>
       <NeonWaveform />
       <button 
-        onClick={() => fetch('http://localhost:5000/api/generate', { method: 'POST' })}
+        onClick={() => fetch('http://localhost:5000/audio/generate', { method: 'POST' })}
         style={{ padding: '10px 20px', cursor: 'pointer' }}
       >
         Generate Neon AV
